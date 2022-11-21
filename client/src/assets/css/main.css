@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --pricolor-1: #e6e6e6;
+    --pricolor-2: #e3f6f5;
+    --seccolor-1: #005792;
+    --seccolor-2: #00204a;
+}
+
+body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--pricolor-1);
+    color: var(--seccolor-2);
+    /* text-align: center; */
+}
+
+.main-navbar {
+    background-color: var(--pricolor-2);
+}
+
+.navbar-brand {
+    color: var(--pricolor-1);
+}
+
+.card-login {
+    margin-top: 10vh;
+}
+
+.card-login .card-body{
+    padding: 50px;
+}
+
+.card-login .MuiFormControl-root{
+    margin-bottom: 30px;
+}
+
+.card-login .card-header {
+    background-color: var(--seccolor-2);
+    color: var(--pricolor-2);
+}
+
+.card-login .card-body {
+    background-color: var(--pricolor-2);
+}
+
+.card-login .card-footer button{
+    background-color: var(--seccolor-2);
+    color: var(--pricolor-2);
+}   
+
+.card-post {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card-post .card-body{
+    padding: 0px;
+}
+
+.card-post .card-body img{
+    width: 100%;
+    height: auto;
+}
+
+.card-post .MuiList-root {
+    width: 100%;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.profile-feed img {
+    margin: 10px;
+    width: 94%;
+    height: auto;
+}
