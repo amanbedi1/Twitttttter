@@ -10,7 +10,7 @@ A twitter clone based on assignment
 ## TO Run Project
 create a .env as given in .envexample file with your mongodb database connection url and jwt secret key 
 
-```npm server```
+```npm start```
 
 In new command shell type
 ```cd client```   
