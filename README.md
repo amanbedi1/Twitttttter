@@ -12,6 +12,6 @@ create a .env as given in .envexample file with your mongodb database connection
 
 ```npm server```
 
-In new command shell
-```cd client```
+In new command shell type
+```cd client```   
 ```npm start``` 
